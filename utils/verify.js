@@ -15,7 +15,7 @@ const verify = async (contractAddress, args) => {
             console.log(e)
         }
     }
-    log("------------------------------------------")
+    console.log("------------------------------------------")
 }
 
 module.exports = { verify }
